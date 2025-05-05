@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Portfolio</title>
+    <link rel="stylesheet" href="port.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-content">
+            <div class="logo">
+                <a href="#">Portfolio</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="theme-toggle">
+                <i class="fas fa-moon"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="home">
+        <div class="home-content">
+            <h1>Hi, I'm <span class="highlight">Rishu Kumar</span></h1>
+            <h2>Cloud Computing Enthusiast</h2>
+            <p>I architect cloud-native solutions and explore cutting-edge technologies like AWS, Docker, and virtualization to drive digital transformation.</p>
+            <div class="cta-buttons">
+                <a href="#projects" class="btn primary">View My Work</a>
+                <a href="Rishu_Kumar_Resume.pdf" class="btn secondary">Download Resume</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>I'm Rishu Kumar, a passionate cloud computing enthusiast with a deep interest in designing scalable, secure, and efficient cloud architectures. I specialize in leveraging platforms such as AWS, Docker, and virtualization tools to build cloud-native solutions. My journey revolves around mastering distributed systems, infrastructure automation, and continuous integration/deployment (CI/CD). I'm driven by curiosity, innovation, and the pursuit of delivering cloud excellence.</p>
+            </div>
+            <div class="about-image">
+                <img src="profile.jpg" alt="Profile Picture" class="myIMG">
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <h2 class="section-title">My Skills</h2>
+        <div class="skills-container">
+            <div class="skill-category">
+                <h3>Cloud Platforms & Infrastructure</h3>
+                <div class="skill-items">
+                    <div class="skill-item">
+                        <i class="fas fa-cloud"></i>
+                        <div>
+                            <span>AWS</span>
+                            <p>Experienced</p>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-cube"></i>
+                        <div>
+                            <span>Docker</span>
+                            <p>Intermediate</p>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-server"></i>
+                        <div>
+                            <span>Virtualization</span>
+                            <p>Intermediate</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skill-category">
+                <h3>Programming & Automation Tools</h3>
+                <div class="skill-items">
+                    <div class="skill-item">
+                        <i class="fab fa-python"></i>
+                        <div>
+                            <span>Python</span>
+                            <p>Experienced</p>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-java"></i>
+                        <div>
+                            <span>Java</span>
+                            <p>Intermediate</p>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-code-branch"></i>
+                        <div>
+                            <span>Git & CI/CD</span>
+                            <p>Intermediate</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2 class="section-title">My Recent Projects</h2>
+        <div class="projects-container">
+            <!-- Project 1 -->
+            <div class="project-card">
+                <img src="pro1_ss.png" alt="Project 1" />
+                <h3>ChatBOT</h3>
+                <div class="buttons">
+                    <a href="https://github.com/Akash52/react-chatbot?tab=readme-ov-file" class="btn github" target="_blank">Github</a>
+                    <a href="https://rmcchatbott.netlify.app/" class="btn demo" target="_blank">DEMO</a>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project-card">
+                <img src="pro2_ss.png" alt="Project 2" />
+                <h3>Trendify</h3>
+                <div class="buttons">
+                    <a href="https://github.com/MenathNDGD/MERN-Ecommerce" class="btn github" target="_blank">Github</a>
+                    <a href="https://mern-ecommerce-lake-one.vercel.app/" class="btn demo" target="_blank">DEMO</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications">
+        <h2>Certifications</h2>
+        <div class="certification-container">
+            <div class="cert-card">
+                <img src="AzureCertificate.jpg" alt="Cloud Certificate" />
+                <h3>Microsoft Certified: Azure Administrator Associate (AZ-104)</h3>
+                <a href="AzureCertificate.jpg" target="_blank" class="btn">View</a>
+            </div>
+            <div class="cert-card">
+                <img src="CourseraCPP.jpg" alt="Networking Certificate" />
+                <h3>Programming in C++: A Hands-on Introduction
+                </h3>
+                <a href="CourseraCPP.jpg" target="_blank" class="btn">View</a>
+            </div>
+            <div class="cert-card">
+                <img src="CourseraGenAi.jpg" alt="C++ Certificate" />
+                <h3>Generative AI with Large Language Models
+                </h3>
+                <a href="CourseraGenAi.jpg" target="_blank" class="btn">View</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-content">
+            <form id="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn primary">Send Message</button>
+            </form>
+            <div class="social-links">
+                <a href="https://github.com/hkrrishu" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/hkrrishu" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Rishu Kumar. All rights reserved.</p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
